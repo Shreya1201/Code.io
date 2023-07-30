@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+*>* {
+  font-family: "Poppins", cursive;
+  margin: 0;
+}
+
+section {
+  /* background: rgb(14, 95, 107);
+  background: linear-gradient(
+    90deg,
+    rgba(14, 95, 107, 1) 12%,
+    rgba(245, 240, 238, 1) 37%,
+    rgba(240, 240, 240, 1) 66%,
+    rgba(11, 99, 113, 1) 89%
+  ); */
+  height: 100vh;
+  padding: 4% 20%;
+}
+
+.register {
+  background-color: #6FB3B8;
+  display: flex;
+  max-width: 975px;
+  width: 65%;
+  margin-top: 55px;
+  padding-right: 25px;
+  border-radius: 5px;
+  justify-content: center;
+
+}
+
+#form {
+  max-width: 320px;
+  width: 100vw;
+  margin: 2em auto;
+}
+
+#form>input,
+.lgrg {
+  border: none;
+  padding: 0.9em 1em;
+}
+
+#form>.lgrg:hover {
+  background-color: #2f7076;
+  color: white;
+}
+
+#form>input:focus {
+  outline: none;
+  background-color: white;
+}
+
+#form>.lgrg {
+  background-color: #91c9ce;
+  color: #2f7076;
+  font-size: 1em;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+}
+
+.flex {
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.register .col-1 {
+  margin: auto;
+  width: 40%;
+}
+
+.col-1 h2 {
+  color: white;
+  font-weight: bold;
+  margin-top: 5%;
+  font-size: 29px;
+  text-align: center;
+
+}
+
+.register .col-2 img {
+  width: 480px;
+  height: 100%;
+  margin-left: 100px;
+  padding-left: 20px;
+  object-fit: cover;
+  align-self: flex-end;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  display: none;
+}
+
+.btn1 {
+  display: flex;
+  justify-content: center;
+}
+
+.btn1 p {
+  color: white;
+}
+
+.btn2 {
+  color: #088d75;
+  font-weight: bold;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  text-decoration: none;
+  padding: 1px 3px;
+}
+
+.btn2:hover {
+  color: #2f7076;
+}
+
+/* .Register {
+  color: #ba4e10;
+  font-weight: bold;
+  font-size: 15px;
+  border: none;
+  background: white;
+} */
+
+@media screen and (min-width: 860px) {
+  .register .col-2 img {
+    display: initial;
+  }
+}

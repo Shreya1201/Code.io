@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:1&display=swap');
+
+.mainpge {
+    background-image: url("../images/bgrnd.avif");
+    background-size: cover;
+
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.container {
+    padding-bottom: 50px;
+}
+
+#intro {
+    justify-content: center;
+    align-items: center;
+    margin: 8%;
+    display: flex;
+    padding-top: 50px;
+    flex-direction: row;
+}
+
+.intro {
+    text-align: center;
+    display: flex;
+    padding: 62px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 50px;
+}
+
+.intro h3 {
+    font-weight: bold;
+}
+
+.intro1 {
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.intro2 {
+
+    padding-top: 70px;
+}
+
+.intro2 img {
+    width: 500px;
+    align-items: right;
+}
+
+.feature {
+    padding-top: 40px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 5%;
+    font-family: "Playfair Display";
+    color: rgb(10, 96, 76);
+    /* font-weight: bold; */
+    letter-spacing: 2px;
+    font-size: 45px;
+    width: 60%;
+    border-bottom: 2px solid rgb(10, 82, 73);
+
+}
+
+.card-title {
+    font-weight: bold;
+    color: rgb(224, 104, 24);
+    padding-bottom: 5px;
+
+}

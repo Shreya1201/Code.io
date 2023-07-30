@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:1&display=swap');
+
+.prob {
+  margin: 70px 150px;
+}
+
+table {
+  padding-bottom: 100px;
+  border: 2px;
+  width: 100%;
+  height: 200px;
+}
+
+tr:nth-child(odd) {
+  background-color: #b7e1e4;
+}
+
+
+
+tr:nth-child(even) {
+  background-color: white;
+
+}
+
+td {
+  font-family: "Playfair Display";
+  font-size: 19px;
+  padding: 15px;
+}
+
+tr:hover {
+  background-color: #baddd3e9;
+}
+
+th {
+  background-color: #2f7076;
+  padding: 20px;
+  color: #baddd3e9;
+  font-size: 19px;
+  font-weight: normal;
+  font-family: "Playfair Display";
+}
+
+
+tr {
+  margin: 10px;
+  padding: 100px;
+  text-align: center;
+
+}
+
+.ques {
+  text-decoration: none;
+}

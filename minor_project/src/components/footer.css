@@ -1,0 +1,69 @@
+.FooterContainer {
+    background: #000d1a;
+    color: #fff;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: 1fr;
+    grid-template-rows: 800px;
+}
+
+.FooterLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.4;
+    padding: 1rem 2rem;
+}
+
+.FooterLeft h3 {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.FooterRight {
+    padding: 10px 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Socials:hover {
+    color: #2e6a6f;
+    transform: translateY(-2px);
+}
+
+.instagram {
+    margin: 20px;
+    color: #388087;
+    height: 40px;
+    width: 30px;
+}
+
+.twitter {
+    margin: 20px;
+    color: #388087;
+    height: 40px;
+    width: 30px;
+}
+
+.gmail {
+    margin: 20px;
+    color: #388087;
+    height: 40px;
+    width: 30px;
+}
+
+.linkedin {
+    margin: 20px;
+    color: #388087;
+    height: 40px;
+    width: 30px;
+}
+
+.instagram {
+    margin: 20px;
+    color: #388087;
+    height: 40px;
+    width: 30px;
+}
